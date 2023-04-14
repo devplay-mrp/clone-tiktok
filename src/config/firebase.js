@@ -6,12 +6,12 @@ import { getFirestore } from "firebase/firestore/lite";
 // porém num projeto maior escondemos no nosso servidor, 
 // estudar mais sobre segurança de banco de dados.
 const firebaseConfig = {
-  apiKey: "AIzaSyAuw3rVDDyBNuA4EDQgB06F7Zw4jg2Vu6Y",
-  authDomain: "tiktok-clone-4fed0.firebaseapp.com",
-  projectId: "tiktok-clone-4fed0",
-  storageBucket: "tiktok-clone-4fed0.appspot.com",
-  messagingSenderId: "819288883647",
-  appId: "1:819288883647:web:c1a370cc1e50cbae95e10a"
+  apiKey: "AIzaSyB2jAzwKXO51ySYv_VDueOEIAFeRlReCXg",
+  authDomain: "tiktok--devplay.firebaseapp.com",
+  projectId: "tiktok--devplay",
+  storageBucket: "tiktok--devplay.appspot.com",
+  messagingSenderId: "398131811393",
+  appId: "1:398131811393:web:78d29d794825052e19a2c0"
 };
 
 const app = initializeApp(firebaseConfig);
@@ -20,3 +20,4 @@ const db = getFirestore(app);
 
 
 export default db;
+
