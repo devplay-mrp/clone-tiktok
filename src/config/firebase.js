@@ -1,23 +1,18 @@
-
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore/lite";
+import { getFirestore } from 'firebase/firestore/lite';
 
-// por se tratar de um programa simples, vou deixar as chaves expostas, 
-// porém num projeto maior escondemos no nosso servidor, 
-// estudar mais sobre segurança de banco de dados.
+
+
 const firebaseConfig = {
-  apiKey: "AIzaSyB2jAzwKXO51ySYv_VDueOEIAFeRlReCXg",
-  authDomain: "tiktok--devplay.firebaseapp.com",
-  projectId: "tiktok--devplay",
-  storageBucket: "tiktok--devplay.appspot.com",
-  messagingSenderId: "398131811393",
-  appId: "1:398131811393:web:78d29d794825052e19a2c0"
+  apiKey: "AIzaSyBcL1LQfU6nGbc4tga4kpv1o6h4ZFIPid8",
+  authDomain: "tiktok-clone-ebecc.firebaseapp.com",
+  projectId: "tiktok-clone-ebecc",
+  storageBucket: "tiktok-clone-ebecc.appspot.com",
+  messagingSenderId: "506466435491",
+  appId: "1:506466435491:web:7afc958563b9123e965a16"
 };
 
 const app = initializeApp(firebaseConfig);
-
 const db = getFirestore(app);
 
-
 export default db;
-
